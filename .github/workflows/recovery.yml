@@ -12,6 +12,8 @@ on:
 #    - cron: 0 8 * * 5
   watch:
     types: [started]
+  workflow_dispatch:
+
 
 env:
   MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni/
