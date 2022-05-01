@@ -1,4 +1,4 @@
-name: Building recovery
+name: Building recovery pbrp
 
 on:
 #  release:
@@ -16,10 +16,10 @@ on:
 
 
 env:
-  MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni/
-  MANIFEST_BRANCH: twrp-5.1
+  MANIFEST: https://github.com/PitchBlackTWRP/manifest_pb
+  MANIFEST_BRANCH: android-7.1
   DEVICE: gtel3g
-  DT_LINK: https://github.com/KrutosVIP/twrp_device_samsung_gtel3g
+  DT_LINK: https://github.com/KrutosVIP/twrp_device_samsung_gtel3g -b pbrp-7.1
   DT_PATH: device/samsung/gtel3g
   TARGET: recoveryimage
   TZ: Asia/Kolkata
