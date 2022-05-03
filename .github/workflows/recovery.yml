@@ -17,7 +17,7 @@ on:
 
 env:
   MANIFEST: https://github.com/PitchBlackTWRP/manifest_pb
-  MANIFEST_BRANCH: android-8.1
+  MANIFEST_BRANCH: android-9.0
   DEVICE: gtel3g
   DT_LINK: https://github.com/KrutosVIP/twrp_device_samsung_gtel3g -b pbrp-8.0-oreokernel
   DT_PATH: device/samsung/gtel3g
