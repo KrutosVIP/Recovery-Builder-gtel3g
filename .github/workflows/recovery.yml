@@ -19,7 +19,7 @@ env:
   MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni/
   MANIFEST_BRANCH: twrp-7.1
   DEVICE: gtel3g
-  DT_LINK: https://github.com/KrutosVIP/twrp_device_samsung_gtel3g
+  DT_LINK: https://github.com/KrutosVIP/twrp_device_samsung_gtel3g -b twrp-7.1-lzma
   DT_PATH: device/samsung/gtel3g
   TARGET: recoveryimage
   TZ: Asia/Kolkata
