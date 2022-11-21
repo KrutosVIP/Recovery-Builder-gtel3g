@@ -19,7 +19,7 @@ env:
   MANIFEST: https://github.com/PitchBlackTWRP/manifest_pb
   MANIFEST_BRANCH: android-8.1
   DEVICE: gtel3g
-  DT_LINK: https://github.com/KrutosVIP/local_manifests/ -b gtel3g_pbrp-8.0
+  DT_LINK: https://github.com/samsung-sc8830/local_manifests/ -b gtel3g_pbrp-8.0
   DT_PATH: .repo/local_manifests
   TARGET: recoveryimage
   TZ: Asia/Kolkata
